@@ -10,6 +10,12 @@ python:
   - '3.5'
   - '3.6'
   - '3.7'
+# Trigger a push build on master and dependabot branches + PRs build on every branches
+# Avoid double build on PRs (See https://github.com/travis-ci/travis-ci/issues/1147)
+branches:
+  only:
+    - master
+    - /^dependabot.*$/
 install:
   - pip install -r requirements.txt
 script:
