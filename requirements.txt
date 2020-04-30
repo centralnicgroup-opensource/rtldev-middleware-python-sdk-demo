@@ -1,1 +1,1 @@
-hexonet.apiconnector~=3.2
+hexonet.apiconnector~=3.4
