@@ -1,0 +1,7 @@
+[project]
+name = "Python-sdk-demo"
+version = "0.1.0"
+
+dependencies = [
+    "hexonet.apiconnector~=4.0"
+]
